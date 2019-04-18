@@ -16,5 +16,13 @@ class MainActivity : AppCompatActivity() {
         val ningen = Human("私", 22,"政治")
 
         ningen.think()
+
+        ningen.say()
+
+        val syumi = Human("母",50,"登山")
+
+        syumi.think()
+
+        syumi.say()
     }}
 
